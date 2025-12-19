@@ -6,11 +6,6 @@ const guestEmails = [
   "diego.t@boolean.com",
 ];
 console.table(guestEmails);
-  }
-}
-
-if (isEnlisted) {
-  console.log("sei nella lista");
-} else {
-  console.log("non sei nella lista");
-}
+// Inserimento della email da parte dell'utente
+const userEmail = prompt("Inserisci la tua email").toLowerCase();
+console.log(`userEmail = ${userEmail}`);
